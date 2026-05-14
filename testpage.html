@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix & Flip Deal | Andrew Marth</title>
+    <style>
+        /* --- General Reset & Styling --- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #4f2d2c; /* Palette Color 6 */
+            background-color: #e9e2d8; /* Palette Color 1 */
+            overflow-x: hidden; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh; /* Ensures footer stays at the bottom */
+        }
+
+        /* --- Main Content Container --- */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+
+        /* --- 1. Header / Logo --- */
+        header {
+            margin-bottom: 30px;
+        }
+        .header-logo {
+            max-width: 180px; /* Kept not too large */
+            height: auto;
+            border-radius: 4px;
+        }
+
+        /* --- 2. Title --- */
+        h1 {
+            font-size: 2.8rem;
+            color: #4e513e; 
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        /* --- 3. Address --- */
+        .address {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #9a5d40;
+            margin-bottom: 25px;
+        }
+
+        /* --- 4. Description --- */
+        .description {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 40px;
+            color: #4f2d2c;
+        }
+
+        /* --- 5. Buttons --- */
+        .button-group {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 60px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #99724b; 
+            color: #e9e2d8; 
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            min-width: 150px;
+        }
+        .btn:hover {
+            background-color: #9a5d40; 
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* --- 6. Profile Picture and Name --- */
+        .profile-section {
+            margin-bottom: 20px;
+        }
+        .profile-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            border: 6px solid #4e513e; 
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .profile-section h2 {
+            font-size: 1.8rem;
+            color: #4f2d2c;
+            margin-bottom: 5px;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #4e513e; 
+            color: #e9e2d8; 
+            width: 100%;
+            margin-top: auto;
+        }
+        .footer-contact {
+            margin-bottom: 20px;
+        }
+        .footer-contact p {
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+            color: #e9e2d8;
+        }
+        .footer-contact a {
+            color: #c09050; 
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer-contact a:hover {
+            text-decoration: underline;
+        }
+        .footer-disclosure {
+            max-width: 900px;
+            margin: 0 auto; 
+            font-size: 0.8rem;
+            color: #e9e2d8; 
+            opacity: 0.75;
+            line-height: 1.5;
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <img src="https://i.ibb.co/hRHFvcrJ/andrew-marth-logo.png" alt="Andrew Marth Logo" class="header-logo">
+        </header>
+
+        <h1>Fix & Flip Deal</h1>
+
+        <div class="address">123 Main St, Scottsdale, AZ 85251</div>
+
+        <p class="description">Please see the proforma for my opinion on the deal. Purchase price may not be guaranteed. If you have any questions, please call or text.</p>
+
+        <div class="button-group">
+            <a href="https://andrewmarth.com/" class="btn" target="_blank">Proforma</a>
+            <a href="https://andrewmarth.com/" class="btn" target="_blank">Pictures</a>
+            <a href="https://andrewmarth.com/" class="btn" target="_blank">Zillow</a>
+        </div>
+
+        <div class="profile-section">
+            <img src="https://i.ibb.co/kVcmYj3f/az-pfp-graded.png" alt="Andrew Marth">
+            <h2>Andrew Marth</h2>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Cell:</strong> 480.652.1330 | <strong>Email:</strong> <a href="mailto:andrew@andrewmarth.com">andrew@andrewmarth.com</a></p>
+            <p><strong>AZ License:</strong> SA711359000</p>
+        </div>
+        
+        <div class="footer-disclosure">
+            <p>Andrew Marth is an agent affiliated with Compass, a licensed real estate broker and abides by Equal Housing Opportunity laws. All material presented herein is intended for informational purposes only. Information is compiled from sources deemed reliable but is subject to errors, omissions, changes in price, condition, sale, or withdrawal without notice. This is not intended to solicit property already listed. Photos may be virtually staged or digitally enhanced and may not reflect actual property conditions.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
